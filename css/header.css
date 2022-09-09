@@ -1,0 +1,114 @@
+body{
+    width: 1200px;
+    margin: auto;
+    padding: auto;
+    font-family: Mulish, sans-serif;
+    color: #000000;
+    /* font-size: 14px; */
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    background-color: #f3f7f8;
+    text-decoration: none;
+    
+}
+header .all-categories select{
+    appearance: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+select{
+    border: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 1200px;
+    height: 70px;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    /* padding: 25px; */
+    box-sizing: border-box;
+    
+}
+header .all-categories{
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    /* background-color: green; */
+    box-sizing: border-box;
+    position: relative;
+}
+header ul {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header > .all-categories > ul{
+    width:250px;
+    height:250px;
+    background-color: aqua;
+    position: absolute;
+    margin-top: 50px;
+    box-sizing: border-box;
+
+}
+header .all-categories ul li{
+    margin: 8px 0;
+    
+    
+}
+header .all-categories ul h3{
+    font-size: 14px;
+}
+header .all-categories ul li:last-child{
+    margin-left: 8px;
+}
+
+header .categories select{
+    border:0px;
+    outline:0px;
+    background:none;
+    width: 55px;
+    font-size: 16px;
+    cursor: pointer;
+}
+header .categories{
+    width: 550px;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+   
+    /* background-color: blue; */
+}
+header .categories  a {
+    
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    position: relative;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+header .registration{
+    width: 320px;
+    height: 100%;
+    align-items: center;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
