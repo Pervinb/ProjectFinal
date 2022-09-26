@@ -38,9 +38,11 @@ header{
     
 }
 header .all-categories{
+    cursor: pointer;
+    margin-left: 5px;
     display: flex;
     flex-direction: row;
-    width: 170px;
+    width: 250px;
     /* background-color: green; */
     box-sizing: border-box;
     position: relative;
@@ -57,6 +59,7 @@ header > .all-categories > ul{
     position: absolute;
     margin-top: 50px;
     box-sizing: border-box;
+    opacity: 1;
 
 }
 header .all-categories ul li{
@@ -111,4 +114,8 @@ header .registration{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+}
+header  .registration  a{
+    text-decoration: none;
 }
